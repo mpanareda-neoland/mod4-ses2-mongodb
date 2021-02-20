@@ -1,0 +1,94 @@
+[
+  {
+    title: "",
+    price: {
+      base: 0,
+      iva: 0,
+      total: 0
+    },
+    release_date: new Date(),
+    featured: false,
+    artist_id: ObjectId,
+    tracks: [
+      {
+        name: "",
+        genre: "",
+        composer: "",
+        milliseconds: 0,
+        price: {
+          base: 0,
+          iva: 0,
+          total: 0
+        }
+      }
+    ]
+  },
+  {
+    title: "For Those About To Rock We Salute You",
+    price: {
+      base: 10.99,
+      iva: 21,
+      total: 13.2979
+    },
+    release_date: new Date("1998-03-19"),
+    featured: true,
+    tracks: [
+      {
+        name: "For Those About To Rock (We Salute You)",
+        genre: "Rock",
+        composer: "Angus Young, Malcolm Young, Brian Johnson",
+        milliseconds: 827827,
+        price: {
+          base: 0.99,
+          iva: 21,
+          total: 1.1979
+        }
+      },
+      {
+        name: "Put The Finger On You",
+        genre: "Rock",
+        composer: "Angus Young, Malcolm Young, Brian Johnson",
+        milliseconds: 837827,
+        price: {
+          base: 0.99,
+          iva: 21,
+          total: 1.1979
+        }
+      }
+    ]
+  },
+  {
+    title: "My Generation - The Very Best Of The Who",
+    price: {
+      base: 19.99,
+      iva: 21,
+      total: 24.1879
+    },
+    release_date: new Date("2000-12-12"),
+    featured: false,
+    tracks: [
+      {
+        name: "I Can't Explain",
+        genre: "Rock",
+        composer: "Pete Townshend",
+        milliseconds: 323431,
+        price: {
+          base: 0.99,
+          iva: 21,
+          total: 1.1979
+        }
+      },
+      {
+        name: "Anyway, Anyhow, Anywhere",
+        genre: "Pop-Rock",
+        composer: "Pete Townshend, Roger Daltrey",
+        milliseconds: 234266,
+        price: {
+          base: 0.99,
+          iva: 21,
+          total: 1.1979
+        }
+      }
+    ]
+  }
+]

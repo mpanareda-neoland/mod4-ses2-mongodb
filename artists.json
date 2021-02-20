@@ -1,0 +1,53 @@
+[
+  {
+    name: "",
+    featured: false,
+    rating: 0,
+    quote: "",
+    main_tour: {
+      country: "",
+      year: 0
+    },
+    creation_date: new Date(),
+    components: {
+      number: 0,
+      list: []
+    },
+    tags: [],
+    country: ""
+  },
+  {
+    name: "AC/DC",
+    featured: true,
+    rating: 8.9,
+    quote: "Let there be rock",
+    main_tour: {
+      country: "USA",
+      year: 2001
+    },
+    creation_date: new Date("1989-02-01"),
+    components: {
+      number: 4,
+      list: ["James", "John", "Michael", "Peter"]
+    },
+    tags: ["rock", "guitar", "live"],
+    country: "USA"
+  },
+  {
+    name: "The Who",
+    featured: false,
+    rating: 7.4,
+    quote: "Who are you?",
+    main_tour: {
+      country: "Spain",
+      year: 1996
+    },
+    creation_date: new Date("1986-12-11"),
+    components: {
+      number: 3,
+      list: ["Fred", "Jane", "Carl"]
+    },
+    tags: ["rock", "british"],
+    country: "UK"
+  }
+]
